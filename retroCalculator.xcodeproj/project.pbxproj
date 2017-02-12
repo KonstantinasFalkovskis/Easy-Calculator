@@ -12,6 +12,8 @@
 		D81640091E4F6B1500452D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81640071E4F6B1500452D52 /* Main.storyboard */; };
 		D816400B1E4F6B1500452D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D816400A1E4F6B1500452D52 /* Assets.xcassets */; };
 		D816400E1E4F6B1500452D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D816400C1E4F6B1500452D52 /* LaunchScreen.storyboard */; };
+		D858C42F1E4FC290001BEE90 /* Pixeled.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D858C42E1E4FC290001BEE90 /* Pixeled.ttf */; };
+		D858C4311E5071C1001BEE90 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D858C4301E5071C1001BEE90 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D816400A1E4F6B1500452D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D816400D1E4F6B1500452D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D816400F1E4F6B1500452D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D858C42E1E4FC290001BEE90 /* Pixeled.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixeled.ttf; sourceTree = "<group>"; };
+		D858C4301E5071C1001BEE90 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		D81640021E4F6B1400452D52 /* retroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D858C42E1E4FC290001BEE90 /* Pixeled.ttf */,
+				D858C4301E5071C1001BEE90 /* btn.wav */,
 				D81640031E4F6B1400452D52 /* AppDelegate.swift */,
 				D81640051E4F6B1400452D52 /* ViewController.swift */,
 				D81640071E4F6B1500452D52 /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D858C4311E5071C1001BEE90 /* btn.wav in Resources */,
 				D816400E1E4F6B1500452D52 /* LaunchScreen.storyboard in Resources */,
 				D816400B1E4F6B1500452D52 /* Assets.xcassets in Resources */,
+				D858C42F1E4FC290001BEE90 /* Pixeled.ttf in Resources */,
 				D81640091E4F6B1500452D52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +308,7 @@
 				D81640141E4F6B1500452D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

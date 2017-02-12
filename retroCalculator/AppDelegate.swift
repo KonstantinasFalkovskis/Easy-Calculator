@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  retroCalculator
 //
-//  Created by Laurynas on 11/02/2017.
+//  Created by Konstantinas Falkovskis on 11/02/2017.
 //  Copyright © 2017 Falco. All rights reserved.
 //
 
